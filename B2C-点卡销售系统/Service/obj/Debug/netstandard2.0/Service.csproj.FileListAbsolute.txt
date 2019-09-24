@@ -1,0 +1,9 @@
+D:\资料\C#\B2C-点卡销售系统\Service\bin\Debug\netstandard2.0\Service.deps.json
+D:\资料\C#\B2C-点卡销售系统\Service\bin\Debug\netstandard2.0\Service.dll
+D:\资料\C#\B2C-点卡销售系统\Service\obj\Debug\netstandard2.0\Service.csprojAssemblyReference.cache
+D:\资料\C#\B2C-点卡销售系统\Service\obj\Debug\netstandard2.0\Service.csproj.CoreCompileInputs.cache
+D:\资料\C#\B2C-点卡销售系统\Service\obj\Debug\netstandard2.0\Service.AssemblyInfoInputs.cache
+D:\资料\C#\B2C-点卡销售系统\Service\obj\Debug\netstandard2.0\Service.AssemblyInfo.cs
+D:\资料\C#\B2C-点卡销售系统\Service\bin\Debug\netstandard2.0\Service.pdb
+D:\资料\C#\B2C-点卡销售系统\Service\obj\Debug\netstandard2.0\Service.dll
+D:\资料\C#\B2C-点卡销售系统\Service\obj\Debug\netstandard2.0\Service.pdb

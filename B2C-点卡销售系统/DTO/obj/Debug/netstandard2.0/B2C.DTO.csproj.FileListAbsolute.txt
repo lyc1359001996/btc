@@ -1,0 +1,9 @@
+D:\资料\C#\B2C-点卡销售系统\DTO\bin\Debug\netstandard2.0\B2C.DTO.deps.json
+D:\资料\C#\B2C-点卡销售系统\DTO\bin\Debug\netstandard2.0\B2C.DTO.dll
+D:\资料\C#\B2C-点卡销售系统\DTO\bin\Debug\netstandard2.0\B2C.DTO.pdb
+D:\资料\C#\B2C-点卡销售系统\DTO\obj\Debug\netstandard2.0\B2C.DTO.csprojAssemblyReference.cache
+D:\资料\C#\B2C-点卡销售系统\DTO\obj\Debug\netstandard2.0\B2C.DTO.csproj.CoreCompileInputs.cache
+D:\资料\C#\B2C-点卡销售系统\DTO\obj\Debug\netstandard2.0\B2C.DTO.AssemblyInfoInputs.cache
+D:\资料\C#\B2C-点卡销售系统\DTO\obj\Debug\netstandard2.0\B2C.DTO.AssemblyInfo.cs
+D:\资料\C#\B2C-点卡销售系统\DTO\obj\Debug\netstandard2.0\B2C.DTO.dll
+D:\资料\C#\B2C-点卡销售系统\DTO\obj\Debug\netstandard2.0\B2C.DTO.pdb
