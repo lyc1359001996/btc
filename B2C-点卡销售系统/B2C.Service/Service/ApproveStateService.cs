@@ -5,6 +5,7 @@ using Service;
 using Service.Entitie;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace B2C.DAL.Service
@@ -30,7 +31,22 @@ namespace B2C.DAL.Service
         /// <returns></returns>
         public ApproveStateDTO[] GetAllApproveState()
         {
-            throw new NotImplementedException();
+            List<ApproveStateDTO> approveStateDTOs = new List<ApproveStateDTO>();
+            using (B2CDbContext ctx = new B2CDbContext())
+            {
+                BaseService<ApproveStateEntity> bs = new BaseService<ApproveStateEntity>(ctx);
+                var States = bs.GetAll().ToList();
+                foreach (var item in States)
+                {
+                    ApproveStateDTO approveStateDTO = new ApproveStateDTO()
+                    {
+                        ApproveStateName = item.ApproveStateName
+                    };
+                    approveStateDTOs.Add(approveStateDTO);
+                }
+                return approveStateDTOs.ToArray();
+            }
+
         }
         /// <summary>
         /// 新增ApproveState
@@ -39,7 +55,11 @@ namespace B2C.DAL.Service
         /// <returns></returns>
         public long InsertApproveState(ApproveStateDTO t_ApproveState)
         {
-            throw new NotImplementedException();
+            using (B2CDbContext ctx = new B2CDbContext())
+            {
+                
+            }
+            return 0;
         }
         /// <summary>
         /// 指定Id查询ApproveState
