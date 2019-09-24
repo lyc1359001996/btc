@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
 using System.Text;
 using B2C.DTO;
 using B2C.IDAL;
@@ -11,6 +13,10 @@ namespace B2C.DAL.Service
 {
     public class AdviceService : IAdvice
     {
+        /// <summary>
+        /// 根据Id软删除
+        /// </summary>
+        /// <param name="t_adviceId"></param>
         public void DeleteAdvice(long t_adviceId)
         {
             using (B2CDbContext ctx = new B2CDbContext())
@@ -19,30 +25,99 @@ namespace B2C.DAL.Service
                 bs.MarkDeleted(t_adviceId);
             }
         }
-
+        /// <summary>
+        /// 获取所有Advice
+        /// </summary>
+        /// <returns></returns>
         public AdviceDTO[] GetAllAdvice()
         {
-            throw new NotImplementedException();
+            using (B2CDbContext ctx = new B2CDbContext())
+            {
+                BaseService<AdviceEntity> bs = new BaseService<AdviceEntity>(ctx);
+                var users = bs.GetAll().Include(e => e.User).AsNoTracking().ToList();
+                List<AdviceDTO> adviceDTOs = new List<AdviceDTO>();
+                foreach (var item in users)
+                {
+                    AdviceDTO adviceDTO = new AdviceDTO()
+                    {
+                        Id = item.Id,
+                        Content = item.Content,
+                        CreateDateTime = item.CreateDateTime,
+                        UserId = item.UserId,
+                        UserName = item.User.UserName
+                    };
+                    adviceDTOs.Add(adviceDTO);
+                }
+                return adviceDTOs.ToArray();
+            }
         }
-
-        public AdviceDTO[] GetAllAdviceByUserId(string t_userId)
+        /// <summary>
+        /// 获取指定用户id的所有Advice
+        /// </summary>
+        /// <param name="t_userId"></param>
+        /// <returns></returns>
+        public AdviceDTO[] GetAllAdviceByUserId(long t_userId)
         {
-            throw new NotImplementedException();
+            using (B2CDbContext ctx = new B2CDbContext())
+            {
+                BaseService<AdviceEntity> bs = new BaseService<AdviceEntity>(ctx);
+                var users = bs
+                    .GetAll()
+                    .Include(e => e.User)
+                    .Where(e => e.UserId == t_userId)
+                    .AsNoTracking()
+                    .ToList();
+                List<AdviceDTO> adviceDTOs = new List<AdviceDTO>();
+                foreach (var item in users)
+                {
+                    AdviceDTO adviceDTO = new AdviceDTO()
+                    {
+                        Id = item.Id,
+                        Content = item.Content,
+                        CreateDateTime = item.CreateDateTime,
+                        UserId = item.UserId,
+                        UserName = item.User.UserName
+                    };
+                    adviceDTOs.Add(adviceDTO);
+                }
+                return adviceDTOs.ToArray();
+            }
         }
-
-        public object GetService(Type serviceType)
+        /// <summary>
+        /// 新增Advice
+        /// </summary>
+        /// <param name="t_Advice"></param>
+        /// <returns></returns>
+        public long InsertAdvice(AdviceDTO t_Advice)
         {
-            throw new NotImplementedException();
+            using (B2CDbContext ctx = new B2CDbContext())
+            {
+                BaseService<UserInfoEntity> bs = new BaseService<UserInfoEntity>(ctx);
+                var user = bs.GetById(t_Advice.UserId);
+                AdviceEntity adviceEntity = new AdviceEntity()
+                {
+                    UserId = t_Advice.UserId,
+                    Content = t_Advice.Content,
+                    User = user
+                };
+                ctx.Advice.Add(adviceEntity);
+                ctx.SaveChanges();
+                return adviceEntity.Id;
+            }
+
         }
-
-        public long InsertAdvice(AdviceEntity t_Advice)
+        /// <summary>
+        /// 通过Id查询
+        /// </summary>
+        /// <param name="t_adviceId"></param>
+        /// <returns></returns>
+        public AdviceEntity SelectAdviceByID(long t_adviceId)
         {
-            throw new NotImplementedException();
-        }
-
-        public AdviceEntity SelectAdviceByID(int t_adviceId)
-        {
-            throw new NotImplementedException();
+            using (B2CDbContext ctx = new B2CDbContext())
+            {
+                BaseService<AdviceEntity> bs = new BaseService<AdviceEntity>(ctx);
+                return bs.GetById(t_adviceId);
+            }
         }
     }
 }

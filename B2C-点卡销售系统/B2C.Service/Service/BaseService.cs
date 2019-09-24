@@ -32,7 +32,6 @@ namespace B2C.Service.Service
         {
             return GetAll().OrderBy(e => e.CreateDateTime).Skip(startIndex).Take(count);
         }
-
         /// <summary>
         /// 通过id查找数据
         /// </summary>
@@ -42,7 +41,10 @@ namespace B2C.Service.Service
         {
             return GetAll().Where(e => e.Id == id).SingleOrDefault();
         }
-
+        /// <summary>
+        /// 软删除
+        /// </summary>
+        /// <param name="id"></param>
         public void MarkDeleted(long id)
         {
             GetById(id).IsDelete = true;

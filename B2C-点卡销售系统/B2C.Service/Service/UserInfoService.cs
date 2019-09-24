@@ -13,6 +13,11 @@ namespace B2C.Service.Service
 {
     public class UserService : IUserService
     {
+        /// <summary>
+        /// 填写用户信息
+        /// </summary>
+        /// <param name="userInfo"></param>
+        /// <returns></returns>
         public long AddUserInfo(UserDTO userInfo)
         {
             using (B2CDbContext ctx = new B2CDbContext())
@@ -44,7 +49,10 @@ namespace B2C.Service.Service
                 return userInfoEntity.Id;
             }
         }
-
+        /// <summary>
+        /// 指定用户id软删除
+        /// </summary>
+        /// <param name="userInfoId"></param>
         public void DeleteUserInfo(long userInfoId)
         {
             using (B2CDbContext ctx = new B2CDbContext())
@@ -74,6 +82,10 @@ namespace B2C.Service.Service
             };
             return userDTO;
         }
+        /// <summary>
+        /// 获取所有用户信息
+        /// </summary>
+        /// <returns></returns>
         public UserDTO[] GetAllUserinfo()
         {
             using (B2CDbContext ctx = new B2CDbContext())
@@ -83,7 +95,11 @@ namespace B2C.Service.Service
                 return users;
             }
         }
-
+        /// <summary>
+        /// 指定角色id查询所有用户信息
+        /// </summary>
+        /// <param name="userRoleId"></param>
+        /// <returns></returns>
         public UserDTO[] GetAllUserinfoByUserRole(long userRoleId)
         {
             using (B2CDbContext ctx = new B2CDbContext())
@@ -93,7 +109,11 @@ namespace B2C.Service.Service
                 return users;
             }
         }
-
+        /// <summary>
+        /// 制定用户状态查询所有用户信息
+        /// </summary>
+        /// <param name="userStateId"></param>
+        /// <returns></returns>
         public UserDTO[] GetAllUserinfoByUserState(long userStateId)
         {
             using (B2CDbContext ctx = new B2CDbContext())
@@ -103,7 +123,11 @@ namespace B2C.Service.Service
                 return users;
             }
         }
-
+        /// <summary>
+        /// 更新用户信息
+        /// </summary>
+        /// <param name="userInfo"></param>
+        /// <returns></returns>
         public long UpdateUserInfo(UserDTO userInfo)
         {
             using (B2CDbContext ctx = new B2CDbContext())
