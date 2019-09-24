@@ -221,27 +221,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\VULCAN\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\JHC-210\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj",
       "projectName": "B2C.Entity",
-      "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj",
-      "packagesPath": "C:\\Users\\VULCAN\\.nuget\\packages\\",
-      "outputPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\obj\\",
+      "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj",
+      "packagesPath": "C:\\Users\\JHC-210\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\VULCAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\JHC-210\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

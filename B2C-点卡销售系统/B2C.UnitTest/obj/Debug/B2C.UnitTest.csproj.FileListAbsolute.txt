@@ -1,0 +1,17 @@
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\bin\Debug\B2C.UnitTest.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\bin\Debug\B2C.UnitTest.pdb
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\obj\Debug\B2C.UnitTest.csprojAssemblyReference.cache
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\obj\Debug\B2C.UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\obj\Debug\B2C.UnitTest.csproj.CopyComplete
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\obj\Debug\B2C.UnitTest.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\obj\Debug\B2C.UnitTest.pdb
