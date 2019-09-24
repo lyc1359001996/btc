@@ -1,0 +1,9 @@
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Utility\bin\Debug\netstandard2.0\B2C.Utility.deps.json
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Utility\bin\Debug\netstandard2.0\B2C.Utility.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Utility\bin\Debug\netstandard2.0\B2C.Utility.pdb
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Utility\obj\Debug\netstandard2.0\B2C.Utility.csprojAssemblyReference.cache
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Utility\obj\Debug\netstandard2.0\B2C.Utility.csproj.CoreCompileInputs.cache
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Utility\obj\Debug\netstandard2.0\B2C.Utility.AssemblyInfoInputs.cache
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Utility\obj\Debug\netstandard2.0\B2C.Utility.AssemblyInfo.cs
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Utility\obj\Debug\netstandard2.0\B2C.Utility.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Utility\obj\Debug\netstandard2.0\B2C.Utility.pdb

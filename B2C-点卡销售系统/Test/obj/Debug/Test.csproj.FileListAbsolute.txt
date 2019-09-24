@@ -16,3 +16,17 @@ D:\资料\C#\B2C-点卡销售系统\Test\bin\Debug\B2C.DTO.dll
 D:\资料\C#\B2C-点卡销售系统\Test\bin\Debug\B2C.Service.pdb
 D:\资料\C#\B2C-点卡销售系统\Test\bin\Debug\B2C.IService.pdb
 D:\资料\C#\B2C-点卡销售系统\Test\bin\Debug\B2C.DTO.pdb
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\bin\Debug\Test.exe.config
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\bin\Debug\Test.exe
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\bin\Debug\Test.pdb
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\bin\Debug\B2C.Entity.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\bin\Debug\EntityFramework.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\bin\Debug\B2C.Entity.pdb
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\bin\Debug\EntityFramework.xml
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\obj\Debug\Test.exe
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\obj\Debug\Test.pdb
