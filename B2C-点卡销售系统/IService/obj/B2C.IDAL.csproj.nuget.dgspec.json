@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\资料\\C#\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj": {}
+    "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj": {}
   },
   "projects": {
-    "D:\\资料\\C#\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {
+    "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\资料\\C#\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj",
+        "projectUniqueName": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj",
         "projectName": "B2C.DTO",
-        "projectPath": "D:\\资料\\C#\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj",
+        "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj",
         "packagesPath": "C:\\Users\\VULCAN\\.nuget\\packages\\",
-        "outputPath": "D:\\资料\\C#\\B2C-点卡销售系统\\DTO\\obj\\",
+        "outputPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "D:\\资料\\C#\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj": {
+    "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\资料\\C#\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj",
+        "projectUniqueName": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj",
         "projectName": "B2C.IDAL",
-        "projectPath": "D:\\资料\\C#\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj",
+        "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj",
         "packagesPath": "C:\\Users\\VULCAN\\.nuget\\packages\\",
-        "outputPath": "D:\\资料\\C#\\B2C-点卡销售系统\\IService\\obj\\",
+        "outputPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\IService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -86,11 +86,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\资料\\C#\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {
-                "projectPath": "D:\\资料\\C#\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj"
+              "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {
+                "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj"
               },
-              "D:\\资料\\C#\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj": {
-                "projectPath": "D:\\资料\\C#\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj"
+              "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj": {
+                "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj"
               }
             }
           }
@@ -119,14 +119,14 @@
         }
       }
     },
-    "D:\\资料\\C#\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj": {
+    "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\资料\\C#\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj",
+        "projectUniqueName": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj",
         "projectName": "B2C.Entity",
-        "projectPath": "D:\\资料\\C#\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj",
+        "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj",
         "packagesPath": "C:\\Users\\VULCAN\\.nuget\\packages\\",
-        "outputPath": "D:\\资料\\C#\\B2C-点卡销售系统\\Service\\obj\\",
+        "outputPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

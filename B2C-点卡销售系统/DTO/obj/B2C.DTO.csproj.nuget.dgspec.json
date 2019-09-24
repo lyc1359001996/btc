@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\资料\\C#\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {}
+    "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {}
   },
   "projects": {
-    "D:\\资料\\C#\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {
+    "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\资料\\C#\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj",
+        "projectUniqueName": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj",
         "projectName": "B2C.DTO",
-        "projectPath": "D:\\资料\\C#\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj",
+        "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj",
         "packagesPath": "C:\\Users\\VULCAN\\.nuget\\packages\\",
-        "outputPath": "D:\\资料\\C#\\B2C-点卡销售系统\\DTO\\obj\\",
+        "outputPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

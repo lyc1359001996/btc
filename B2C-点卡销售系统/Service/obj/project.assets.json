@@ -228,11 +228,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\资料\\C#\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj",
+      "projectUniqueName": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj",
       "projectName": "B2C.Entity",
-      "projectPath": "D:\\资料\\C#\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj",
+      "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj",
       "packagesPath": "C:\\Users\\VULCAN\\.nuget\\packages\\",
-      "outputPath": "D:\\资料\\C#\\B2C-点卡销售系统\\Service\\obj\\",
+      "outputPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
