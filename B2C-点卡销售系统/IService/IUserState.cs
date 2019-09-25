@@ -15,11 +15,11 @@ namespace B2C.IDAL
         UserStateDTO SelectUserStateByID(long t_userStateId);
 
         UserStateDTO[] GetAllUserState();
-				
-	
-		int InsertUserState(UserStateDTO t_UserState);
-		
-		int UpdateUserState(UserStateDTO t_UserState);
+
+
+        long InsertUserState(UserStateDTO t_UserState);
+
+        long UpdateUserState(UserStateDTO t_UserState);
 		
 		void DeleteUserState(long t_userStateId);
 	}
