@@ -23,7 +23,7 @@ namespace Service
             public DbSet<CardEntity> Card { get; set; }
             public DbSet<CardStateEntity> CardState { get; set; }
             public DbSet<CardTypeDTO> CardType { get; set; }
-            public DbSet<NewsDTO> News { get; set; }
+            public DbSet<NewsEntity> News { get; set; }
             public DbSet<PostFailedInfoEntity> PostFailedInfos { get; set; }
             public DbSet<PostHistoryEntity> PostHistories { get; set; }
             public DbSet<RoleInfoEntity> Roles { get; set; }

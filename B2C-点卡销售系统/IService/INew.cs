@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System;
 using B2C.IService;
 using Service.Entitie;
+using B2C.DTO;
 
 namespace B2C.IDAL
 {
@@ -11,16 +12,16 @@ namespace B2C.IDAL
 	///
 	public interface INew: IServiceSupport
     {
-		NewsDTO SelectNewByID(long t_newsId);
+		NewDTO SelectNewByID(long t_newsId);
 
-        NewsDTO[] GetAllNew();
+        NewDTO[] GetAllNew();
 
 
-        long InsertNew(NewsDTO t_New);
+        long InsertNew(NewDTO t_New);
 
-        long UpdateNew(NewsDTO t_New);
+        long UpdateNew(NewDTO t_New);
 
-        long DeleteNew(long t_newsId);
+        void DeleteNew(long t_newsId);
 	}
 }
 
