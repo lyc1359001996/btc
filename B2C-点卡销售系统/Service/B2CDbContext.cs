@@ -19,7 +19,7 @@ namespace Service
             modelBuilder.Configurations.AddFromAssembly(Assembly.GetExecutingAssembly());
         }
             public DbSet<AdviceEntity> Advice { get; set; }
-            public DbSet<ApproveStateEntity> Approve { get; set; }
+            public DbSet<ApproveStateEntity> ApproveState { get; set; }
             public DbSet<CardEntity> Card { get; set; }
             public DbSet<CardStateEntity> CardState { get; set; }
             public DbSet<CardTypeEntity> CardType { get; set; }

@@ -57,9 +57,14 @@ namespace B2C.DAL.Service
         {
             using (B2CDbContext ctx = new B2CDbContext())
             {
-                
+                ApproveStateEntity approveStateEntity = new ApproveStateEntity()
+                {
+                    ApproveStateName = t_ApproveState.ApproveStateName
+                };
+                ctx.ApproveState.Add(approveStateEntity);
+                ctx.SaveChanges();
+                return approveStateEntity.Id;
             }
-            return 0;
         }
         /// <summary>
         /// 指定Id查询ApproveState
@@ -68,7 +73,18 @@ namespace B2C.DAL.Service
         /// <returns></returns>
         public ApproveStateDTO SelectApproveStateByID(long t_approveStateId)
         {
-            throw new NotImplementedException();
+            using (B2CDbContext ctx = new B2CDbContext())
+            {
+                BaseService<ApproveStateEntity> bs = new BaseService<ApproveStateEntity>(ctx);
+                var States = bs.GetAll().Where(u => u.Id == t_approveStateId).SingleOrDefault();
+                ApproveStateDTO approveStateDTO = new ApproveStateDTO()
+                {
+                    Id = States.Id,
+                    ApproveStateName = States.ApproveStateName,
+                    CreateDateTime = States.CreateDateTime
+                };
+                return approveStateDTO;
+            }
         }
         /// <summary>
         /// 更新ApproveState
@@ -77,7 +93,13 @@ namespace B2C.DAL.Service
         /// <returns></returns>
         public long UpdateApproveState(ApproveStateDTO t_ApproveState)
         {
-            throw new NotImplementedException();
+            using (B2CDbContext ctx = new B2CDbContext())
+            {
+                var state = ctx.ApproveState.Where(u => u.Id == t_ApproveState.Id).SingleOrDefault();
+                state.ApproveStateName = t_ApproveState.ApproveStateName;
+                ctx.SaveChanges();
+                return state.Id;
+            }
         }
     }
 }
