@@ -6,7 +6,7 @@ using Service.Entitie;
 
 namespace B2C.IService
 {
-    public interface IUserService:IServiceSupport
+    public interface IUserInfo : IServiceSupport
     {
         UserDTO[] GetAllUserinfo();
         UserDTO[] GetAllUserinfoByUserRole(long userRoleId);
