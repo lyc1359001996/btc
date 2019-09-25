@@ -6,10 +6,8 @@
 
 using System.Data;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System;
 
-using B2C.Model;
 
 
 namespace B2C.IDAL
