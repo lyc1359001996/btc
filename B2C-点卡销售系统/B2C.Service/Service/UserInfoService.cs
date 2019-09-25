@@ -22,8 +22,8 @@ namespace B2C.Service.Service
         {
             using (B2CDbContext ctx = new B2CDbContext())
             {
-                BaseService<CardTypeEntity> cardType
-                    = new BaseService<CardTypeEntity>(ctx);
+                BaseService<global::Service.Entitie.CardTypeDTO> cardType
+                    = new BaseService<global::Service.Entitie.CardTypeDTO>(ctx);
                 UserInfoEntity userInfoEntity = new UserInfoEntity();
                 userInfoEntity.Address = userInfo.Address;
                 userInfoEntity.Email = userInfo.Email;
