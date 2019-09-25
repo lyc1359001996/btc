@@ -7,7 +7,7 @@ namespace Service.Entitie
     public class ShoppingCartEntity:BaseEntity
     {
         public int Num { get; set; }//购买数量
-        public virtual CardTypeDTO CardType { get; set; }//卡片类型对象
+        public virtual CardTypeEntity CardType { get; set; }//卡片类型对象
         public virtual UserInfoEntity User { get; set; }//用户对象
 
         public long CardTypeId { get; set; }//卡片类型Id

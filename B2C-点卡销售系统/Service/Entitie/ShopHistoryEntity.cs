@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Service.Entitie
 {
-    public class ShopHistoryDTO:BaseEntity
+    public class ShopHistoryEntity : BaseEntity
     {
         public virtual CardEntity Card { get; set; }//卡片对象
         public virtual UserInfoEntity User { get; set; }//用户对象

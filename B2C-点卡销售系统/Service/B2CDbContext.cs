@@ -22,12 +22,12 @@ namespace Service
             public DbSet<ApproveStateEntity> ApproveState { get; set; }
             public DbSet<CardEntity> Card { get; set; }
             public DbSet<CardStateEntity> CardState { get; set; }
-            public DbSet<CardTypeDTO> CardType { get; set; }
-            public DbSet<NewsDTO> News { get; set; }
+            public DbSet<CardTypeEntity> CardType { get; set; }
+            public DbSet<NewsEntity> News { get; set; }
             public DbSet<PostFailedInfoEntity> PostFailedInfos { get; set; }
             public DbSet<PostHistoryEntity> PostHistories { get; set; }
             public DbSet<RoleInfoEntity> Roles { get; set; }
-            public DbSet<ShopHistoryDTO> ShopHistories { get; set; }
+            public DbSet<ShopHistoryEntity> ShopHistories { get; set; }
             public DbSet<ShoppingCartEntity> ShoppingCarts { get; set; }
             public DbSet<SysFunEntity> SysFuns { get; set; }
             public DbSet<UserInfoEntity> UserInfos { get; set; }
