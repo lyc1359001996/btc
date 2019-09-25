@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System;
 using Service.Entitie;
 using B2C.IService;
+using B2C.DTO;
 
 namespace B2C.IDAL
 {
@@ -17,16 +18,16 @@ namespace B2C.IDAL
 	///
 	public interface ISysFun: IServiceSupport
     {
-		SysFunEntity SelectSysFunByID(int t_nodeId);
+		SysFunDTO SelectSysFunByID(long t_nodeId);
 		
-		IList<SysFunEntity> GetAllSysFun();
+		SysFunDTO[] GetAllSysFun();
 				
 	
-		int InsertSysFun(SysFunEntity t_SysFun);
+		int InsertSysFun(SysFunDTO t_SysFun);
 		
-		int UpdateSysFun(SysFunEntity t_SysFun);
+		int UpdateSysFun(SysFunDTO t_SysFun);
 		
-		int DeleteSysFun(int t_nodeId);
+		void DeleteSysFun(long t_nodeId);
 	}
 }
 

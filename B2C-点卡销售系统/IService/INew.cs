@@ -11,16 +11,16 @@ namespace B2C.IDAL
 	///
 	public interface INew: IServiceSupport
     {
-		NewsEntity SelectNewByID(int t_newsId);
-		
-		IList<NewsEntity> GetAllNew();
+		NewsDTO SelectNewByID(long t_newsId);
+
+        NewsDTO[] GetAllNew();
 				
 	
-		int InsertNew(NewsEntity t_New);
+		int InsertNew(NewsDTO t_New);
 		
-		int UpdateNew(NewsEntity t_New);
+		int UpdateNew(NewsDTO t_New);
 		
-		int DeleteNew(int t_newsId);
+		void DeleteNew(long t_newsId);
 	}
 }
 

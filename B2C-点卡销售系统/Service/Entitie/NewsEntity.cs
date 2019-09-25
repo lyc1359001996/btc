@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Service.Entitie
 {
-    public class NewsEntity:BaseEntity
+    public class NewsDTO:BaseEntity
     {
         public string Title { get; set; }//公告标题
         public string Content { get; set; }//公告内容

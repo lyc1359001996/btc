@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System;
 using B2C.IService;
 using Service.Entitie;
+using B2C.DTO;
 
 namespace B2C.IDAL
 {
@@ -17,20 +18,20 @@ namespace B2C.IDAL
 	///
 	public interface IShoppingCart: IServiceSupport
     {
-		ShoppingCartEntity SelectShoppingCartByID(int t_shoppingCartItemId);
+		ShoppingCartDTO SelectShoppingCartByID(long t_shoppingCartItemId);
 		
-		IList<ShoppingCartEntity> GetAllShoppingCart();
-				
-		IList<ShoppingCartEntity> GetAllShoppingCartByUserId(string t_userId);
-		
-		IList<ShoppingCartEntity> GetAllShoppingCartByCardTypeId(int t_cardTypeId);
+		ShoppingCartDTO[] GetAllShoppingCart();
+
+        ShoppingCartDTO[] GetAllShoppingCartByUserId(long t_userId);
+
+        ShoppingCartDTO[] GetAllShoppingCartByCardTypeId(long t_cardTypeId);
 		
 	
-		int InsertShoppingCart(ShoppingCartEntity t_ShoppingCart);
+		int InsertShoppingCart(ShoppingCartDTO t_ShoppingCart);
 		
-		int UpdateShoppingCart(ShoppingCartEntity t_ShoppingCart);
+		int UpdateShoppingCart(ShoppingCartDTO t_ShoppingCart);
 		
-		int DeleteShoppingCart(int t_shoppingCartItemId);
+		void DeleteShoppingCart(long t_shoppingCartItemId);
 	}
 }
 

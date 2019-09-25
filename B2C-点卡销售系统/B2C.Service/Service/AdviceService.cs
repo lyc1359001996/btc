@@ -111,12 +111,21 @@ namespace B2C.DAL.Service
         /// </summary>
         /// <param name="t_adviceId"></param>
         /// <returns></returns>
-        public AdviceEntity SelectAdviceByID(long t_adviceId)
+        public AdviceDTO SelectAdviceByID(long t_adviceId)
         {
             using (B2CDbContext ctx = new B2CDbContext())
             {
                 BaseService<AdviceEntity> bs = new BaseService<AdviceEntity>(ctx);
-                return bs.GetById(t_adviceId);
+                var advice = bs.GetById(t_adviceId);
+                AdviceDTO adviceDTO = new AdviceDTO()
+                {
+                    Id = advice.Id,
+                    Content = advice.Content,
+                    CreateDateTime = advice.CreateDateTime,
+                    UserId = advice.UserId,
+                    UserName = advice.User.UserName
+                };
+                return adviceDTO;
             }
         }
     }

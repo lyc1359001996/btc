@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System;
 using B2C.IService;
 using Service.Entitie;
+using B2C.DTO;
 
 namespace B2C.IDAL
 {
@@ -11,16 +12,16 @@ namespace B2C.IDAL
 	///
 	public interface IRoleInfo: IServiceSupport
     {
-		RoleInfoEntity SelectRoleInfoByID(int t_roleId);
-		
-		IList<RoleInfoEntity> GetAllRoleInfo();
+		RoleInfoDTO SelectRoleInfoByID(long t_roleId);
+
+        RoleInfoDTO[] GetAllRoleInfo();
 				
 	
-		int InsertRoleInfo(RoleInfoEntity t_RoleInfo);
+		int InsertRoleInfo(RoleInfoDTO t_RoleInfo);
 		
-		int UpdateRoleInfo(RoleInfoEntity t_RoleInfo);
+		int UpdateRoleInfo(RoleInfoDTO t_RoleInfo);
 		
-		int DeleteRoleInfo(int t_roleId);
+		void DeleteRoleInfo(long t_roleId);
 	}
 }
 

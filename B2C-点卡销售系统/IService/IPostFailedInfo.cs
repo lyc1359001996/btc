@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System;
 using Service.Entitie;
 using B2C.IService;
+using B2C.DTO;
 
 namespace B2C.IDAL
 {
@@ -17,20 +18,20 @@ namespace B2C.IDAL
 	///
 	public interface IPostFailedInfo: IServiceSupport
     {
-		PostFailedInfoEntity SelectPostFailedInfoByID(int t_postFailedInfoId);
-		
-		IList<PostFailedInfoEntity> GetAllPostFailedInfo();
-				
-		IList<PostFailedInfoEntity> GetAllPostFailedInfoByUserId(string t_userId);
-		
-		IList<PostFailedInfoEntity> GetAllPostFailedInfoByPostHistoryId(int t_postHistoryId);
+		PostFailedInfoDTO SelectPostFailedInfoByID(long t_postFailedInfoId);
+
+        PostFailedInfoDTO[] GetAllPostFailedInfo();
+
+        PostFailedInfoDTO[] GetAllPostFailedInfoByUserId(long t_userId);
+
+        PostFailedInfoDTO[] GetAllPostFailedInfoByPostHistoryId(long t_postHistoryId);
 		
 	
-		int InsertPostFailedInfo(PostFailedInfoEntity t_PostFailedInfo);
+		int InsertPostFailedInfo(PostFailedInfoDTO t_PostFailedInfo);
 		
-		int UpdatePostFailedInfo(PostFailedInfoEntity t_PostFailedInfo);
+		int UpdatePostFailedInfo(PostFailedInfoDTO t_PostFailedInfo);
 		
-		int DeletePostFailedInfo(int t_postFailedInfoId);
+		void DeletePostFailedInfo(long t_postFailedInfoId);
 	}
 }
 

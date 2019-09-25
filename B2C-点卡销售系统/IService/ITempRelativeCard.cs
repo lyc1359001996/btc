@@ -16,18 +16,18 @@ namespace B2C.IDAL
 	///
 	public interface ITempRelativeCard: IServiceSupport
     {
-		TempRelativeCardEntity SelectTempRelativeCardByID(int t_tempRelativeCardId);
+		TempRelativeCardDTO SelectTempRelativeCardByID(int t_tempRelativeCardId);
 		
-		IList<TempRelativeCardEntity> GetAllTempRelativeCard();
+		IList<TempRelativeCardDTO> GetAllTempRelativeCard();
 				
-		IList<TempRelativeCardEntity> GetAllTempRelativeCardByUserId(string t_userId);
+		IList<TempRelativeCardDTO> GetAllTempRelativeCardByUserId(string t_userId);
 		
-		IList<TempRelativeCardEntity> GetAllTempRelativeCardByCardTypeid(int t_cardTypeid);
+		IList<TempRelativeCardDTO> GetAllTempRelativeCardByCardTypeid(int t_cardTypeid);
 		
 	
-		int InsertTempRelativeCard(TempRelativeCardEntity t_TempRelativeCard);
+		int InsertTempRelativeCard(TempRelativeCardDTO t_TempRelativeCard);
 		
-		int UpdateTempRelativeCard(TempRelativeCardEntity t_TempRelativeCard);
+		int UpdateTempRelativeCard(TempRelativeCardDTO t_TempRelativeCard);
 		
 		int DeleteTempRelativeCard(int t_tempRelativeCardId);
 	}

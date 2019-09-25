@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Service.Entitie
 {
-    public class CardTypeEntity:BaseEntity
+    public class CardTypeDTO:BaseEntity
     {
         public string CardTypeName { get; set; }//卡片类型名称
         public int CardPrice { get; set; }//卡片价格

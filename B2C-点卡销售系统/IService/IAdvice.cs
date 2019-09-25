@@ -9,7 +9,7 @@ namespace B2C.IDAL
 {
     public interface IAdvice: IServiceSupport
     {
-        AdviceEntity SelectAdviceByID(long t_adviceId);
+        AdviceDTO SelectAdviceByID(long t_adviceId);
 
         AdviceDTO[] GetAllAdvice();
 
