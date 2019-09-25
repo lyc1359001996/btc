@@ -6,19 +6,16 @@
 
 using System.Data;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System;
-
-using B2C.Model;
-
+using B2C.IService;
 
 namespace B2C.IDAL
 {
 	///
 	//TempRelativeCard
 	///
-	public interface ITempRelativeCard
-	{
+	public interface ITempRelativeCard: IServiceSupport
+    {
 		TempRelativeCardEntity SelectTempRelativeCardByID(int t_tempRelativeCardId);
 		
 		IList<TempRelativeCardEntity> GetAllTempRelativeCard();

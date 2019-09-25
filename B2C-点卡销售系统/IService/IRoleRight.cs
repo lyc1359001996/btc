@@ -6,19 +6,16 @@
 
 using System.Data;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System;
-
-using B2C.Model;
-
+using B2C.IService;
 
 namespace B2C.IDAL
 {
 	///
 	//RoleRight
 	///
-	public interface IRoleRight
-	{
+	public interface IRoleRight: IServiceSupport
+    {
 		RoleRightEntity SelectRoleRightByID(int t_roleRightId);
 		
 		IList<RoleRightEntity> GetAllRoleRight();

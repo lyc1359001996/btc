@@ -6,19 +6,17 @@
 
 using System.Data;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System;
-
-using B2C.Model;
-
+using Service.Entitie;
+using B2C.IService;
 
 namespace B2C.IDAL
 {
 	///
 	//PostFailedInfo
 	///
-	public interface IPostFailedInfo
-	{
+	public interface IPostFailedInfo: IServiceSupport
+    {
 		PostFailedInfoEntity SelectPostFailedInfoByID(int t_postFailedInfoId);
 		
 		IList<PostFailedInfoEntity> GetAllPostFailedInfo();

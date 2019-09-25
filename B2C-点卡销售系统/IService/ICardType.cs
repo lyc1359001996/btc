@@ -1,24 +1,16 @@
-///
-//?????,?????CodeSmith??
-//???:??
-//????:2009?10?15?
-///
-
 using System.Data;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System;
-
-using B2C.Model;
-
+using B2C.IService;
+using Service.Entitie;
 
 namespace B2C.IDAL
 {
 	///
 	//CardType
 	///
-	public interface ICardType
-	{
+	public interface ICardType: IServiceSupport
+    {
 		CardTypeEntity SelectCardTypeByID(int t_cardTypeId);
 		
 		IList<CardTypeEntity> GetAllCardType();
