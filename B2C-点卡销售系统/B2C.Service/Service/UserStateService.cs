@@ -57,7 +57,7 @@ namespace B2C.DAL.Service
         /// <returns></returns>
         public int InsertUserState(UserStateDTO t_UserState)
         {
-            throw new NotImplementedException();
+            
         }
         /// <summary>
         /// 指定用户id查询用户状态
