@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System;
 using B2C.IService;
 using Service.Entitie;
+using B2C.DTO;
 
 namespace B2C.IDAL
 {
@@ -17,20 +18,20 @@ namespace B2C.IDAL
 	///
 	public interface IPostHistory: IServiceSupport
     {
-		PostHistoryEntity SelectPostHistoryByID(int t_postHistoryId);
-		
-		IList<PostHistoryEntity> GetAllPostHistory();
-				
-		IList<PostHistoryEntity> GetAllPostHistoryByUserId(string t_userId);
-		
-		IList<PostHistoryEntity> GetAllPostHistoryByApproveState(int t_approveState);
+		PostHistoryDTO SelectPostHistoryByID(long t_postHistoryId);
+
+        PostHistoryDTO[] GetAllPostHistory();
+
+        PostHistoryDTO[] GetAllPostHistoryByUserId(long t_userId);
+
+        PostHistoryDTO[] GetAllPostHistoryByApproveState(long t_approveState);
 		
 	
-		int InsertPostHistory(PostHistoryEntity t_PostHistory);
+		int InsertPostHistory(PostHistoryDTO t_PostHistory);
 		
-		int UpdatePostHistory(PostHistoryEntity t_PostHistory);
+		int UpdatePostHistory(PostHistoryDTO t_PostHistory);
 		
-		int DeletePostHistory(int t_postHistoryId);
+		void DeletePostHistory(long t_postHistoryId);
 	}
 }
 

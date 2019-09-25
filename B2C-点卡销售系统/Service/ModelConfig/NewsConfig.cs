@@ -7,7 +7,7 @@ using Service.Entitie;
 namespace Service.ModelConfig
 {
 
-    class NewsConfig : EntityTypeConfiguration<NewsEntity>
+    class NewsConfig : EntityTypeConfiguration<NewsDTO>
     {
         public NewsConfig()
         {

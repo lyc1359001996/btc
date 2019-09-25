@@ -11,20 +11,20 @@ namespace B2C.IDAL
 	///
 	public interface IShopHistory: IServiceSupport
     {
-		ShopHistoryEntity SelectShopHistoryByID(int t_shopHistoryId);
+		ShopHistoryDTO SelectShopHistoryByID(long t_shopHistoryId);
 		
-		IList<ShopHistoryEntity> GetAllShopHistory();
+		ShopHistoryDTO[] GetAllShopHistory();
 				
-		IList<ShopHistoryEntity> GetAllShopHistoryByUserId(string t_userId);
+		ShopHistoryDTO[] GetAllShopHistoryByUserId(long t_userId);
 		
-		IList<ShopHistoryEntity> GetAllShopHistoryByCardId(int t_cardId);
+		ShopHistoryDTO[] GetAllShopHistoryByCardId(long t_cardId);
 		
 	
-		int InsertShopHistory(ShopHistoryEntity t_ShopHistory);
+		int InsertShopHistory(ShopHistoryDTO t_ShopHistory);
 		
-		int UpdateShopHistory(ShopHistoryEntity t_ShopHistory);
+		int UpdateShopHistory(ShopHistoryDTO t_ShopHistory);
 		
-		int DeleteShopHistory(int t_shopHistoryId);
+		void DeleteShopHistory(long t_shopHistoryId);
 	}
 }
 

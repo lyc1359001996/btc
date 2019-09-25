@@ -22,6 +22,6 @@ namespace Service.Entitie
 
         public virtual UserStateEntity UserState { get; set; }//用户状态对象
         public long UserStateId { get; set; } //用户状态
-        public virtual ICollection<CardTypeEntity> CardTypes { get; set; } = new List<CardTypeEntity>();
+        public virtual ICollection<CardTypeDTO> CardTypes { get; set; } = new List<CardTypeDTO>();
     }
 }

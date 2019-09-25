@@ -11,16 +11,16 @@ namespace B2C.IDAL
 	///
 	public interface ICardType: IServiceSupport
     {
-		CardTypeEntity SelectCardTypeByID(int t_cardTypeId);
-		
-		IList<CardTypeEntity> GetAllCardType();
+		CardTypeDTO SelectCardTypeByID(long t_cardTypeId);
+
+        CardTypeDTO[] GetAllCardType();
 				
 	
-		int InsertCardType(CardTypeEntity t_CardType);
+		int InsertCardType(CardTypeDTO t_CardType);
 		
-		int UpdateCardType(CardTypeEntity t_CardType);
+		int UpdateCardType(CardTypeDTO t_CardType);
 		
-		int DeleteCardType(int t_cardTypeId);
+		void DeleteCardType(long t_cardTypeId);
 	}
 }
 
