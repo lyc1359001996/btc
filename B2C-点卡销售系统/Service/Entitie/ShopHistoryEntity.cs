@@ -10,6 +10,6 @@ namespace Service.Entitie
         public virtual UserInfoEntity User { get; set; }//用户对象
 
         public long CardId { get; set; }//卡片Id
-        public long UserId { get; set; }//用户状态Id
+        public long UserId { get; set; }//用户Id
     }
 }
