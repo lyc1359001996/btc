@@ -6,19 +6,17 @@
 
 using System.Data;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System;
-
-using B2C.Model;
-
+using B2C.IService;
+using Service.Entitie;
 
 namespace B2C.IDAL
 {
 	///
 	//ShoppingCart
 	///
-	public interface IShoppingCart
-	{
+	public interface IShoppingCart: IServiceSupport
+    {
 		ShoppingCartEntity SelectShoppingCartByID(int t_shoppingCartItemId);
 		
 		IList<ShoppingCartEntity> GetAllShoppingCart();

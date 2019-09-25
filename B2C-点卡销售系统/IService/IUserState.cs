@@ -1,34 +1,27 @@
-///
-//?????,?????CodeSmith??
-//???:??
-//????:2009?10?15?
-///
-
 using System.Data;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System;
-
-using B2C.Model;
-
+using Service.Entitie;
+using B2C.IService;
+using B2C.DTO;
 
 namespace B2C.IDAL
 {
 	///
 	//UserState
 	///
-	public interface IUserState
-	{
-		UserStateEntity SelectUserStateByID(int t_userStateId);
-		
-		IList<UserStateEntity> GetAllUserState();
+	public interface IUserState: IServiceSupport
+    {
+        UserStateDTO SelectUserStateByID(long t_userStateId);
+
+        UserStateDTO[] GetAllUserState();
 				
 	
-		int InsertUserState(UserStateEntity t_UserState);
+		int InsertUserState(UserStateDTO t_UserState);
 		
-		int UpdateUserState(UserStateEntity t_UserState);
+		int UpdateUserState(UserStateDTO t_UserState);
 		
-		int DeleteUserState(int t_userStateId);
+		void DeleteUserState(long t_userStateId);
 	}
 }
 

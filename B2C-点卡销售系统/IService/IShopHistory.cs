@@ -1,24 +1,16 @@
-///
-//?????,?????CodeSmith??
-//???:??
-//????:2009?10?15?
-///
-
 using System.Data;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System;
-
-using B2C.Model;
-
+using B2C.IService;
+using Service.Entitie;
 
 namespace B2C.IDAL
 {
 	///
 	//ShopHistory
 	///
-	public interface IShopHistory
-	{
+	public interface IShopHistory: IServiceSupport
+    {
 		ShopHistoryEntity SelectShopHistoryByID(int t_shopHistoryId);
 		
 		IList<ShopHistoryEntity> GetAllShopHistory();

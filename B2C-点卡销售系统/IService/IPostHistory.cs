@@ -6,19 +6,17 @@
 
 using System.Data;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System;
-
-using B2C.Model;
-
+using B2C.IService;
+using Service.Entitie;
 
 namespace B2C.IDAL
 {
 	///
 	//PostHistory
 	///
-	public interface IPostHistory
-	{
+	public interface IPostHistory: IServiceSupport
+    {
 		PostHistoryEntity SelectPostHistoryByID(int t_postHistoryId);
 		
 		IList<PostHistoryEntity> GetAllPostHistory();
