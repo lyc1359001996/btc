@@ -18,7 +18,7 @@ namespace B2C.Service.Service
         /// </summary>
         /// <param name="userInfo"></param>
         /// <returns></returns>
-        public long AddUserInfo(UserDTO userInfo)
+        public long AddUserInfo(UserInfoDTO userInfo)
         {
             using (B2CDbContext ctx = new B2CDbContext())
             {
@@ -61,9 +61,9 @@ namespace B2C.Service.Service
                 bs.MarkDeleted(userInfoId);
             }
         }
-        private UserDTO ToDTO(UserInfoEntity userInfo)
+        private UserInfoDTO ToDTO(UserInfoEntity userInfo)
         {
-            UserDTO userDTO = new UserDTO()
+            UserInfoDTO userDTO = new UserInfoDTO()
             {
                 UserName = userInfo.UserName,
                 Address = userInfo.Address,
@@ -86,7 +86,7 @@ namespace B2C.Service.Service
         /// 获取所有用户信息
         /// </summary>
         /// <returns></returns>
-        public UserDTO[] GetAllUserinfo()
+        public UserInfoDTO[] GetAllUserinfo()
         {
             using (B2CDbContext ctx = new B2CDbContext())
             {
@@ -100,7 +100,7 @@ namespace B2C.Service.Service
         /// </summary>
         /// <param name="userRoleId"></param>
         /// <returns></returns>
-        public UserDTO[] GetAllUserinfoByUserRole(long userRoleId)
+        public UserInfoDTO[] GetAllUserinfoByUserRole(long userRoleId)
         {
             using (B2CDbContext ctx = new B2CDbContext())
             {
@@ -114,7 +114,7 @@ namespace B2C.Service.Service
         /// </summary>
         /// <param name="userStateId"></param>
         /// <returns></returns>
-        public UserDTO[] GetAllUserinfoByUserState(long userStateId)
+        public UserInfoDTO[] GetAllUserinfoByUserState(long userStateId)
         {
             using (B2CDbContext ctx = new B2CDbContext())
             {
@@ -128,7 +128,7 @@ namespace B2C.Service.Service
         /// </summary>
         /// <param name="userInfo"></param>
         /// <returns></returns>
-        public long UpdateUserInfo(UserDTO userInfo)
+        public long UpdateUserInfo(UserInfoDTO userInfo)
         {
             using (B2CDbContext ctx = new B2CDbContext())
             {

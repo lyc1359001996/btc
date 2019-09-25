@@ -4,7 +4,7 @@ using System.Text;
 
 namespace B2C.DTO
 {
-    public class UserDTO:BaseDTO
+    public class UserInfoDTO:BaseDTO
     {
         /// <summary>
         /// 用户名
