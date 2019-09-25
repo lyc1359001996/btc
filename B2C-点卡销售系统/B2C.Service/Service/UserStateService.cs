@@ -55,9 +55,19 @@ namespace B2C.DAL.Service
         /// </summary>
         /// <param name="t_UserState"></param>
         /// <returns></returns>
-        public int InsertUserState(UserStateDTO t_UserState)
+        public long InsertUserState(UserStateDTO t_UserState)
         {
-            throw new NotImplementedException();
+            using (B2CDbContext ctx = new B2CDbContext())
+            {
+                //BaseService<UserStateEntity> bs = new BaseService<UserStateEntity>(ctx);
+                UserStateEntity userStateEntity = new UserStateEntity()
+                {
+                    UserStateName = t_UserState.UserStateName
+                };
+                ctx.UserStates.Add(userStateEntity);
+                ctx.SaveChanges();
+                return userStateEntity.Id;
+            }
         }
         /// <summary>
         /// 指定用户id查询用户状态
@@ -66,16 +76,36 @@ namespace B2C.DAL.Service
         /// <returns></returns>
         public UserStateDTO SelectUserStateByID(long t_userStateId)
         {
-            throw new NotImplementedException();
+            using (B2CDbContext ctx = new B2CDbContext())
+            {
+                BaseService<UserStateEntity> bs = new BaseService<UserStateEntity>(ctx);
+                var userstatedto = bs.GetAll().Where(u => u.Id == t_userStateId).SingleOrDefault();
+                UserStateDTO userStateDTO = new UserStateDTO()
+                {
+                    Id = userstatedto.Id,
+                    CreateDateTime = userstatedto.CreateDateTime,
+                    UserState = userstatedto.UserState,
+                    UserStateName = userstatedto.UserStateName
+                };
+                return userStateDTO;
+            }
         }
         /// <summary>
         /// 更新用户状态
         /// </summary>
         /// <param name="t_UserState"></param>
         /// <returns></returns>
-        public int UpdateUserState(UserStateDTO t_UserState)
+        public long UpdateUserState(UserStateDTO t_UserState)
         {
-            throw new NotImplementedException();
+            using (B2CDbContext ctx = new B2CDbContext())
+            {
+                BaseService<UserStateEntity> bs = new BaseService<UserStateEntity>(ctx);
+                var userState = bs.GetAll().Where(u => u.Id == t_UserState.Id).SingleOrDefault();
+                userState.UserState = t_UserState.UserState;
+                userState.UserStateName = t_UserState.UserStateName;
+                ctx.SaveChanges();
+                return userState.Id;
+            }
         }
     }
 }
