@@ -25,11 +25,11 @@ namespace B2C.IDAL
         PostHistoryDTO[] GetAllPostHistoryByUserId(long t_userId);
 
         PostHistoryDTO[] GetAllPostHistoryByApproveState(long t_approveState);
-		
-	
-		int InsertPostHistory(PostHistoryDTO t_PostHistory);
-		
-		int UpdatePostHistory(PostHistoryDTO t_PostHistory);
+
+
+        long InsertPostHistory(PostHistoryDTO t_PostHistory);
+
+        long UpdatePostHistory(PostHistoryDTO t_PostHistory);
 		
 		void DeletePostHistory(long t_postHistoryId);
 	}

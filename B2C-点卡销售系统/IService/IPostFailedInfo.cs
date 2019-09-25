@@ -25,11 +25,11 @@ namespace B2C.IDAL
         PostFailedInfoDTO[] GetAllPostFailedInfoByUserId(long t_userId);
 
         PostFailedInfoDTO[] GetAllPostFailedInfoByPostHistoryId(long t_postHistoryId);
-		
-	
-		int InsertPostFailedInfo(PostFailedInfoDTO t_PostFailedInfo);
-		
-		int UpdatePostFailedInfo(PostFailedInfoDTO t_PostFailedInfo);
+
+
+        long InsertPostFailedInfo(PostFailedInfoDTO t_PostFailedInfo);
+
+        long UpdatePostFailedInfo(PostFailedInfoDTO t_PostFailedInfo);
 		
 		void DeletePostFailedInfo(long t_postFailedInfoId);
 	}

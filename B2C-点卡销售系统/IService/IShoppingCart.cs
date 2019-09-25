@@ -25,11 +25,11 @@ namespace B2C.IDAL
         ShoppingCartDTO[] GetAllShoppingCartByUserId(long t_userId);
 
         ShoppingCartDTO[] GetAllShoppingCartByCardTypeId(long t_cardTypeId);
-		
-	
-		int InsertShoppingCart(ShoppingCartDTO t_ShoppingCart);
-		
-		int UpdateShoppingCart(ShoppingCartDTO t_ShoppingCart);
+
+
+        long InsertShoppingCart(ShoppingCartDTO t_ShoppingCart);
+
+        long UpdateShoppingCart(ShoppingCartDTO t_ShoppingCart);
 		
 		void DeleteShoppingCart(long t_shoppingCartItemId);
 	}

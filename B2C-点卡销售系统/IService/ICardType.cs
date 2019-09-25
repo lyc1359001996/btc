@@ -14,11 +14,11 @@ namespace B2C.IDAL
 		CardTypeDTO SelectCardTypeByID(long t_cardTypeId);
 
         CardTypeDTO[] GetAllCardType();
-				
-	
-		int InsertCardType(CardTypeDTO t_CardType);
-		
-		int UpdateCardType(CardTypeDTO t_CardType);
+
+
+        long InsertCardType(CardTypeDTO t_CardType);
+
+        long UpdateCardType(CardTypeDTO t_CardType);
 		
 		void DeleteCardType(long t_cardTypeId);
 	}

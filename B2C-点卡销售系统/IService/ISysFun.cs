@@ -23,9 +23,9 @@ namespace B2C.IDAL
 		SysFunDTO[] GetAllSysFun();
 				
 	
-		int InsertSysFun(SysFunDTO t_SysFun);
-		
-		int UpdateSysFun(SysFunDTO t_SysFun);
+		long InsertSysFun(SysFunDTO t_SysFun);
+
+        long UpdateSysFun(SysFunDTO t_SysFun);
 		
 		void DeleteSysFun(long t_nodeId);
 	}

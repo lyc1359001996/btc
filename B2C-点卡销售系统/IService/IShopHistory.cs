@@ -18,11 +18,11 @@ namespace B2C.IDAL
 		ShopHistoryDTO[] GetAllShopHistoryByUserId(long t_userId);
 		
 		ShopHistoryDTO[] GetAllShopHistoryByCardId(long t_cardId);
-		
-	
-		int InsertShopHistory(ShopHistoryDTO t_ShopHistory);
-		
-		int UpdateShopHistory(ShopHistoryDTO t_ShopHistory);
+
+
+        long InsertShopHistory(ShopHistoryDTO t_ShopHistory);
+
+        long UpdateShopHistory(ShopHistoryDTO t_ShopHistory);
 		
 		void DeleteShopHistory(long t_shopHistoryId);
 	}

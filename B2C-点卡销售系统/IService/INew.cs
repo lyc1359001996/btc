@@ -14,13 +14,13 @@ namespace B2C.IDAL
 		NewsDTO SelectNewByID(long t_newsId);
 
         NewsDTO[] GetAllNew();
-				
-	
-		int InsertNew(NewsDTO t_New);
-		
-		int UpdateNew(NewsDTO t_New);
-		
-		void DeleteNew(long t_newsId);
+
+
+        long InsertNew(NewsDTO t_New);
+
+        long UpdateNew(NewsDTO t_New);
+
+        long DeleteNew(long t_newsId);
 	}
 }
 

@@ -15,11 +15,11 @@ namespace B2C.IDAL
 		RoleInfoDTO SelectRoleInfoByID(long t_roleId);
 
         RoleInfoDTO[] GetAllRoleInfo();
-				
-	
-		int InsertRoleInfo(RoleInfoDTO t_RoleInfo);
-		
-		int UpdateRoleInfo(RoleInfoDTO t_RoleInfo);
+
+
+        long InsertRoleInfo(RoleInfoDTO t_RoleInfo);
+
+        long UpdateRoleInfo(RoleInfoDTO t_RoleInfo);
 		
 		void DeleteRoleInfo(long t_roleId);
 	}
