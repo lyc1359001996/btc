@@ -35,7 +35,6 @@ namespace B2C.DAL.Service
             {
                 BaseService<CardTypeEntity> bs = new BaseService<CardTypeEntity>(ctx);
                 return bs.GetAll().Include(e=>e.UserInfos).AsNoTracking().ToList().Select(e=>ToDTO(e)).ToArray();
-
             }
             
         }
@@ -44,29 +43,71 @@ namespace B2C.DAL.Service
         {
             using (B2CDbContext ctx = new B2CDbContext())
             {
-                BaseService<UserInfoEntity> bs = new BaseService<UserInfoEntity>(ctx);
-                CardTypeEntity cardTypeEntity = new CardTypeEntity();
-                cardTypeEntity.CardImage = t_CardType.CardImage;
-                cardTypeEntity.CardPrice = t_CardType.CardPrice;
-                cardTypeEntity.CardTypeName = t_CardType.CardTypeName;
-                foreach (var item in bs.GetAll().Where(a=>t_CardType.UserInfoIds.Contains(a.Id)))
+                BaseService<CardTypeEntity> cardTypebs = new BaseService<CardTypeEntity>(ctx);
+                if (cardTypebs.GetById(t_CardType.Id) == null)
                 {
-                    cardTypeEntity.UserInfos.Add(item);
+                    BaseService<UserInfoEntity> bs = new BaseService<UserInfoEntity>(ctx);
+                    CardTypeEntity cardTypeEntity = new CardTypeEntity();
+                    cardTypeEntity.CardImage = t_CardType.CardImage;
+                    cardTypeEntity.CardPrice = t_CardType.CardPrice;
+                    cardTypeEntity.CardTypeName = t_CardType.CardTypeName;
+                    foreach (var item in bs.GetAll().Where(a => t_CardType.UserInfoIds.Contains(a.Id)))
+                    {
+                        cardTypeEntity.UserInfos.Add(item);
+                    }
+                    ctx.CardType.Add(cardTypeEntity);
+                    ctx.SaveChanges();
+                    return cardTypeEntity.Id;
                 }
-                ctx.CardType.Add(cardTypeEntity);
-                ctx.SaveChanges();
-                return cardTypeEntity.Id;
+                else
+                {
+                    return 0;
+                }
+                
             }
         }
 
         public CardTypeDTO SelectCardTypeByID(long t_cardTypeId)
         {
-            throw new NotImplementedException();
+             using (B2CDbContext ctx = new B2CDbContext())
+            {
+                BaseService<CardTypeEntity> bs = new BaseService<CardTypeEntity>(ctx);
+                if (bs.GetById(t_cardTypeId) != null)
+                {
+                    return ToDTO(bs.GetById(t_cardTypeId));
+                }
+                else
+                {
+                    return null;
+                }
+            }
         }
 
         public long UpdateCardType(CardTypeDTO t_CardType)
         {
-            throw new NotImplementedException();
+            using (B2CDbContext ctx = new B2CDbContext())
+            {
+                BaseService<CardTypeEntity> cardTypebs = new BaseService<CardTypeEntity>(ctx);
+                BaseService<UserInfoEntity> bs = new BaseService<UserInfoEntity>(ctx);
+                if (cardTypebs.GetById(t_CardType.Id) != null)
+                {
+                    CardTypeEntity cardTypeEntity = new CardTypeEntity();
+                    cardTypeEntity.CardImage = t_CardType.CardImage;
+                    cardTypeEntity.CardPrice = t_CardType.CardPrice;
+                    cardTypeEntity.CardTypeName = t_CardType.CardTypeName;
+                    foreach (var item in bs.GetAll().Where(a => t_CardType.UserInfoIds.Contains(a.Id)))
+                    {
+                        cardTypeEntity.UserInfos.Add(item);
+                    }
+                    ctx.SaveChanges();
+                    return cardTypeEntity.Id;
+                }
+                else
+                {
+                    return 0;
+                }
+                
+            }
         }
     }
 }
