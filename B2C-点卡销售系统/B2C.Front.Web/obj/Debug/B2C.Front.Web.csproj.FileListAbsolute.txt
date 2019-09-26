@@ -69,7 +69,6 @@ C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Front.Web\bin\zh-Ha
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Front.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Front.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Front.Web\obj\Debug\B2C.Front.Web.csprojAssemblyReference.cache
-C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Front.Web\obj\Debug\B2C.Front.Web.csproj.CoreCompileInputs.cache
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Front.Web\obj\Debug\B2C.Front.Web.csproj.CopyComplete
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Front.Web\obj\Debug\B2C.Front.Web.dll
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Front.Web\obj\Debug\B2C.Front.Web.pdb

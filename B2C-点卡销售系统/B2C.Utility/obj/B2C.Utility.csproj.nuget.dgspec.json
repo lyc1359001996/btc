@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj": {}
+    "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj": {
+    "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj",
         "projectName": "B2C.Utility",
-        "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj",
+        "projectPath": "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj",
         "packagesPath": "C:\\Users\\JHC-210\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\obj\\",
+        "outputPath": "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -49,10 +49,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

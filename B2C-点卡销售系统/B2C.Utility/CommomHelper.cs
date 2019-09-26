@@ -13,7 +13,6 @@ namespace B2C.Utility
             byte[] bytes = Encoding.UTF8.GetBytes(str);
             return CalcMD5(bytes);
         }
-
         public static string CalcMD5(byte[] bytes)
         {
             using (MD5 md5 = MD5.Create())
@@ -27,7 +26,6 @@ namespace B2C.Utility
                 return result;
             }
         }
-
         public static string CalcMD5(Stream stream)
         {
             using (MD5 md5 = MD5.Create())

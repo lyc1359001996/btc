@@ -51,6 +51,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "B2C.DTO": "1.0.0",
           "EntityFramework": "6.2.0"
         },
         "compile": {
@@ -297,11 +298,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Service\\B2C.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\B2C.Service\\B2C.DAL.csproj",
       "projectName": "B2C.DAL",
-      "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Service\\B2C.DAL.csproj",
+      "projectPath": "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\B2C.Service\\B2C.DAL.csproj",
       "packagesPath": "C:\\Users\\JHC-210\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Service\\obj\\",
+      "outputPath": "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\B2C.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -320,17 +321,17 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj": {
-              "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj"
+            "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj": {
+              "projectPath": "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj"
             },
-            "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {
-              "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj"
+            "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {
+              "projectPath": "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj"
             },
-            "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj": {
-              "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj"
+            "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj": {
+              "projectPath": "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj"
             },
-            "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj": {
-              "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj"
+            "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj": {
+              "projectPath": "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj"
             }
           }
         }
@@ -352,10 +353,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -364,7 +371,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "已使用“.NETFramework,Version=v4.6.1”而不是项目目标框架“.NETStandard,Version=v2.0”还原包“EntityFramework 6.2.0”。此包可能与项目不完全兼容。",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETStandard,Version=v2.0”还原包“EntityFramework 6.2.0”。此包可能与项目不完全兼容。",
       "libraryId": "EntityFramework",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"

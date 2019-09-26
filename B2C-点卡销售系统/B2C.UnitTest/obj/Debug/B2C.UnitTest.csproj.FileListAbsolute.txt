@@ -11,7 +11,6 @@ C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\bin\Debug\
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\obj\Debug\B2C.UnitTest.csprojAssemblyReference.cache
-C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\obj\Debug\B2C.UnitTest.csproj.CoreCompileInputs.cache
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\obj\Debug\B2C.UnitTest.csproj.CopyComplete
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\obj\Debug\B2C.UnitTest.dll
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.UnitTest\obj\Debug\B2C.UnitTest.pdb

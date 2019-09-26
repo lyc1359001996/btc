@@ -11,7 +11,6 @@ C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\DTO\bin\Debug\netstanda
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\DTO\bin\Debug\netstandard2.0\B2C.DTO.dll
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\DTO\bin\Debug\netstandard2.0\B2C.DTO.pdb
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\DTO\obj\Debug\netstandard2.0\B2C.DTO.csprojAssemblyReference.cache
-C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\DTO\obj\Debug\netstandard2.0\B2C.DTO.csproj.CoreCompileInputs.cache
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\DTO\obj\Debug\netstandard2.0\B2C.DTO.AssemblyInfoInputs.cache
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\DTO\obj\Debug\netstandard2.0\B2C.DTO.AssemblyInfo.cs
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\DTO\obj\Debug\netstandard2.0\B2C.DTO.dll

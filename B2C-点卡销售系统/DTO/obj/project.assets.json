@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj",
+      "projectUniqueName": "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj",
       "projectName": "B2C.DTO",
-      "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj",
+      "projectPath": "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj",
       "packagesPath": "C:\\Users\\JHC-210\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\DTO\\obj\\",
+      "outputPath": "C:\\Users\\JHC-210\\source\\repos\\btc\\B2C-点卡销售系统\\DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -227,10 +227,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
