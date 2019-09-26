@@ -42,12 +42,12 @@ namespace Test
 
             //});
 
-            ApproveStateService approveStateService = new ApproveStateService();
-            ApproveStateDTO approveStateDTO = new ApproveStateDTO()
-            {
-                ApproveStateName = "adasdasdasda"
-            };
-            approveStateService.InsertApproveState(approveStateDTO);
+            //ApproveStateService approveStateService = new ApproveStateService();
+            //ApproveStateDTO approveStateDTO = new ApproveStateDTO()
+            //{
+            //    ApproveStateName = "adasdasdasda"
+            //};
+            //approveStateService.InsertApproveState(approveStateDTO);
             Console.WriteLine("ok");
             Console.ReadKey();
         }

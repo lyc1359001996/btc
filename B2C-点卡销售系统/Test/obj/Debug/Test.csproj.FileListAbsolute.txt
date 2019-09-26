@@ -53,3 +53,9 @@ D:\资料\C#\B2C\B2C-点卡销售系统\Test\bin\Debug\B2C.Utility.dll
 D:\资料\C#\B2C\B2C-点卡销售系统\Test\bin\Debug\B2C.DAL.pdb
 D:\资料\C#\B2C\B2C-点卡销售系统\Test\bin\Debug\B2C.IDAL.pdb
 D:\资料\C#\B2C\B2C-点卡销售系统\Test\bin\Debug\B2C.Utility.pdb
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\bin\Debug\B2C.DAL.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\bin\Debug\B2C.IDAL.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\bin\Debug\B2C.Utility.dll
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\bin\Debug\B2C.DAL.pdb
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\bin\Debug\B2C.IDAL.pdb
+C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Test\bin\Debug\B2C.Utility.pdb
