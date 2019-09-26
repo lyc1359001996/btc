@@ -22,8 +22,8 @@ namespace B2C.Service.Service
         {
             using (B2CDbContext ctx = new B2CDbContext())
             {
-                BaseService<global::Service.Entitie.CardTypeDTO> cardType
-                    = new BaseService<global::Service.Entitie.CardTypeDTO>(ctx);
+                BaseService<CardTypeEntity> cardType
+                    = new BaseService<CardTypeEntity>(ctx);
                 UserInfoEntity userInfoEntity = new UserInfoEntity();
                 userInfoEntity.Address = userInfo.Address;
                 userInfoEntity.Email = userInfo.Email;
@@ -78,7 +78,8 @@ namespace B2C.Service.Service
                 UserRoleName = userInfo.RoleInfo.RoleName,
                 UserState = userInfo.UserState.UserStateName,
                 RoleId = userInfo.RoleInfoId,
-                UserStateId = userInfo.UserStateId
+                UserStateId = userInfo.UserStateId,
+                
             };
             return userDTO;
         }
