@@ -7,7 +7,7 @@ using Service.Entitie;
 
 namespace Service.ModelConfig
 {
-    class ShopHistoryConfig : EntityTypeConfiguration<ShophistoryDTO>
+    class ShopHistoryConfig : EntityTypeConfiguration<ShopHistoryEntity>
     {
         public ShopHistoryConfig()
         {

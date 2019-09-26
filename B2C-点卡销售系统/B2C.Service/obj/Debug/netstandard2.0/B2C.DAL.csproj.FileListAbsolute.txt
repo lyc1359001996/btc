@@ -10,7 +10,6 @@ C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Service\bin\Debug\n
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Service\bin\Debug\netstandard2.0\B2C.IDAL.pdb
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Service\bin\Debug\netstandard2.0\B2C.Entity.pdb
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Service\obj\Debug\netstandard2.0\B2C.DAL.csprojAssemblyReference.cache
-C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Service\obj\Debug\netstandard2.0\B2C.DAL.csproj.CoreCompileInputs.cache
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Service\obj\Debug\netstandard2.0\B2C.DAL.AssemblyInfoInputs.cache
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Service\obj\Debug\netstandard2.0\B2C.DAL.AssemblyInfo.cs
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\B2C.Service\obj\Debug\netstandard2.0\B2C.DAL.csproj.CopyComplete
