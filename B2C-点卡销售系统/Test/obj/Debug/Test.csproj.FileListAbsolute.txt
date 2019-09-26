@@ -47,3 +47,9 @@ D:\资料\C#\B2C\B2C-点卡销售系统\Test\obj\Debug\Test.csproj.CoreCompileIn
 D:\资料\C#\B2C\B2C-点卡销售系统\Test\obj\Debug\Test.csproj.CopyComplete
 D:\资料\C#\B2C\B2C-点卡销售系统\Test\obj\Debug\Test.exe
 D:\资料\C#\B2C\B2C-点卡销售系统\Test\obj\Debug\Test.pdb
+D:\资料\C#\B2C\B2C-点卡销售系统\Test\bin\Debug\B2C.DAL.dll
+D:\资料\C#\B2C\B2C-点卡销售系统\Test\bin\Debug\B2C.IDAL.dll
+D:\资料\C#\B2C\B2C-点卡销售系统\Test\bin\Debug\B2C.Utility.dll
+D:\资料\C#\B2C\B2C-点卡销售系统\Test\bin\Debug\B2C.DAL.pdb
+D:\资料\C#\B2C\B2C-点卡销售系统\Test\bin\Debug\B2C.IDAL.pdb
+D:\资料\C#\B2C\B2C-点卡销售系统\Test\bin\Debug\B2C.Utility.pdb

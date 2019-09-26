@@ -11,7 +11,7 @@ using Service.Entitie;
 
 namespace B2C.Service.Service
 {
-    public class UserService : IUserInfo
+    public class UserInfoService : IUserInfo
     {
         /// <summary>
         /// 填写用户信息
