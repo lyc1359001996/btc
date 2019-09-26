@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\B2C.Service\\B2C.DAL.csproj": {}
+    "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Service\\B2C.DAL.csproj": {}
   },
   "projects": {
-    "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\B2C.Service\\B2C.DAL.csproj": {
+    "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Service\\B2C.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\B2C.Service\\B2C.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Service\\B2C.DAL.csproj",
         "projectName": "B2C.DAL",
-        "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\B2C.Service\\B2C.DAL.csproj",
-        "packagesPath": "C:\\Users\\VULCAN\\.nuget\\packages\\",
-        "outputPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\B2C.Service\\obj\\",
+        "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Service\\B2C.DAL.csproj",
+        "packagesPath": "C:\\Users\\JHC-210\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\VULCAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\JHC-210\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -32,17 +30,17 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj": {
-                "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj"
+              "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj": {
+                "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj"
               },
-              "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {
-                "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj"
+              "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {
+                "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj"
               },
-              "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj": {
-                "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj"
+              "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj": {
+                "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj"
               },
-              "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj": {
-                "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj"
+              "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj": {
+                "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj"
               }
             }
           }
@@ -64,30 +62,34 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj": {
+    "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj",
         "projectName": "B2C.Utility",
-        "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj",
-        "packagesPath": "C:\\Users\\VULCAN\\.nuget\\packages\\",
-        "outputPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\B2C.Utility\\obj\\",
+        "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\B2C.Utility.csproj",
+        "packagesPath": "C:\\Users\\JHC-210\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\B2C.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\VULCAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\JHC-210\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -118,30 +120,34 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {
+    "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj",
         "projectName": "B2C.DTO",
-        "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj",
-        "packagesPath": "C:\\Users\\VULCAN\\.nuget\\packages\\",
-        "outputPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\obj\\",
+        "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj",
+        "packagesPath": "C:\\Users\\JHC-210\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\VULCAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\JHC-210\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -172,30 +178,34 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj": {
+    "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj",
+        "projectUniqueName": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj",
         "projectName": "B2C.IDAL",
-        "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj",
-        "packagesPath": "C:\\Users\\VULCAN\\.nuget\\packages\\",
-        "outputPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\IService\\obj\\",
+        "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\IService\\B2C.IDAL.csproj",
+        "packagesPath": "C:\\Users\\JHC-210\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\IService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\VULCAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\JHC-210\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -207,11 +217,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {
-                "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj"
+              "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {
+                "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj"
               },
-              "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj": {
-                "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj"
+              "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj": {
+                "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj"
               }
             }
           }
@@ -233,30 +243,34 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj": {
+    "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj",
         "projectName": "B2C.Entity",
-        "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj",
-        "packagesPath": "C:\\Users\\VULCAN\\.nuget\\packages\\",
-        "outputPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\Service\\obj\\",
+        "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\Service\\B2C.Entity.csproj",
+        "packagesPath": "C:\\Users\\JHC-210\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\VULCAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\JHC-210\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -267,7 +281,11 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {
+                "projectPath": "C:\\Users\\JHC-210\\Source\\Repos\\btc\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -291,10 +309,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

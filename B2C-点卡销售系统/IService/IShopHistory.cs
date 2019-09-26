@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System;
 using B2C.IService;
 using Service.Entitie;
+using B2C.DTO;
 
 namespace B2C.IDAL
 {
@@ -11,18 +12,18 @@ namespace B2C.IDAL
 	///
 	public interface IShopHistory: IServiceSupport
     {
-		ShopHistoryDTO SelectShopHistoryByID(long t_shopHistoryId);
-		
-		ShopHistoryDTO[] GetAllShopHistory();
+        ShophistoryDTO SelectShopHistoryByID(long t_shopHistoryId);
+
+        ShophistoryDTO[] GetAllShopHistory();
 				
-		ShopHistoryDTO[] GetAllShopHistoryByUserId(long t_userId);
+		ShophistoryDTO[] GetAllShopHistoryByUserId(long t_userId);
 		
-		ShopHistoryDTO[] GetAllShopHistoryByCardId(long t_cardId);
+		ShophistoryDTO[] GetAllShopHistoryByCardId(long t_cardId);
 
 
-        long InsertShopHistory(ShopHistoryDTO t_ShopHistory);
+        long InsertShopHistory(ShophistoryDTO t_ShopHistory);
 
-        long UpdateShopHistory(ShopHistoryDTO t_ShopHistory);
+        long UpdateShopHistory(ShophistoryDTO t_ShopHistory);
 		
 		void DeleteShopHistory(long t_shopHistoryId);
 	}
