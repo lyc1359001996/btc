@@ -58,6 +58,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\B2C.Service\B2C.DAL.csproj">
+      <Project>{de9f8944-e309-4136-a1a7-a955f304c30b}</Project>
+      <Name>B2C.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\B2C.DTO.csproj">
+      <Project>{92b2a21d-f4da-49f6-bfc8-5ff641e222dc}</Project>
+      <Name>B2C.DTO</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Service\B2C.Entity.csproj">
       <Project>{fecff5c1-478c-42ac-bf50-637cc9a4eba4}</Project>
       <Name>B2C.Entity</Name>

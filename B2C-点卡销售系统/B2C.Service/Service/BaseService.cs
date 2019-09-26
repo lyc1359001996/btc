@@ -47,7 +47,8 @@ namespace B2C.Service.Service
         /// <param name="id"></param>
         public void MarkDeleted(long id)
         {
-            GetById(id).IsDelete = true;
+            var data = GetById(id);
+            data.IsDelete = true;
             ctx.SaveChanges();
         }
     }

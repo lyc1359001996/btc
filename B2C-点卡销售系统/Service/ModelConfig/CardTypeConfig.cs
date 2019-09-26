@@ -8,7 +8,7 @@ using Service.Entitie;
 namespace Service.ModelConfig
 {
    
-    class CardTypeConfig : EntityTypeConfiguration<CardTypeDTO>
+    class CardTypeConfig : EntityTypeConfiguration<CardTypeEntity>
     {
         public CardTypeConfig()
         {

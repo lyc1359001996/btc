@@ -11,7 +11,7 @@ namespace Service
     {
         public B2CDbContext() : base("name=conn")
         {
-            //Database.SetInitializer<ZSZDbContext>(null);
+            Database.SetInitializer<B2CDbContext>(null);
         }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
