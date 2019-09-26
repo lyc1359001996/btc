@@ -9,3 +9,15 @@ C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Service\obj\Debug\netst
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Service\bin\Debug\netstandard2.0\B2C.DTO.dll
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Service\bin\Debug\netstandard2.0\B2C.DTO.pdb
 C:\Users\JHC-210\Source\Repos\btc\B2C-点卡销售系统\Service\obj\Debug\netstandard2.0\B2C.Entity.csproj.CopyComplete
+D:\资料\C#\B2C\B2C-点卡销售系统\Service\bin\Debug\netstandard2.0\B2C.Entity.deps.json
+D:\资料\C#\B2C\B2C-点卡销售系统\Service\bin\Debug\netstandard2.0\B2C.Entity.dll
+D:\资料\C#\B2C\B2C-点卡销售系统\Service\bin\Debug\netstandard2.0\B2C.Entity.pdb
+D:\资料\C#\B2C\B2C-点卡销售系统\Service\bin\Debug\netstandard2.0\B2C.DTO.dll
+D:\资料\C#\B2C\B2C-点卡销售系统\Service\bin\Debug\netstandard2.0\B2C.DTO.pdb
+D:\资料\C#\B2C\B2C-点卡销售系统\Service\obj\Debug\netstandard2.0\B2C.Entity.csprojAssemblyReference.cache
+D:\资料\C#\B2C\B2C-点卡销售系统\Service\obj\Debug\netstandard2.0\B2C.Entity.csproj.CoreCompileInputs.cache
+D:\资料\C#\B2C\B2C-点卡销售系统\Service\obj\Debug\netstandard2.0\B2C.Entity.AssemblyInfoInputs.cache
+D:\资料\C#\B2C\B2C-点卡销售系统\Service\obj\Debug\netstandard2.0\B2C.Entity.AssemblyInfo.cs
+D:\资料\C#\B2C\B2C-点卡销售系统\Service\obj\Debug\netstandard2.0\B2C.Entity.csproj.CopyComplete
+D:\资料\C#\B2C\B2C-点卡销售系统\Service\obj\Debug\netstandard2.0\B2C.Entity.dll
+D:\资料\C#\B2C\B2C-点卡销售系统\Service\obj\Debug\netstandard2.0\B2C.Entity.pdb
