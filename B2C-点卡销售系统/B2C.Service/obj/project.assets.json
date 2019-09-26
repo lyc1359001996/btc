@@ -51,6 +51,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "B2C.DTO": "1.0.0",
           "EntityFramework": "6.2.0"
         },
         "compile": {

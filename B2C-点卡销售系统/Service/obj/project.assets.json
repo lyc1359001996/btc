@@ -36,6 +36,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "B2C.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/B2C.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/B2C.DTO.dll": {}
+        }
       }
     }
   },
@@ -212,10 +222,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "B2C.DTO/1.0.0": {
+      "type": "project",
+      "path": "../DTO/B2C.DTO.csproj",
+      "msbuildProject": "../DTO/B2C.DTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "B2C.DTO >= 1.0.0",
       "EntityFramework >= 6.2.0",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -252,7 +268,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {
+              "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

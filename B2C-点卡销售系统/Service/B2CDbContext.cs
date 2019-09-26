@@ -26,7 +26,7 @@ namespace Service
             public DbSet<NewsEntity> News { get; set; }
             public DbSet<PostFailedInfoEntity> PostFailedInfos { get; set; }
             public DbSet<PostHistoryEntity> PostHistories { get; set; }
-            public DbSet<RoleInfoEntity> Roles { get; set; }
+            public DbSet<RoleInfoEntity> RolesInfo { get; set; }
             public DbSet<ShopHistoryEntity> ShopHistories { get; set; }
             public DbSet<ShoppingCartEntity> ShoppingCarts { get; set; }
             public DbSet<SysFunEntity> SysFuns { get; set; }

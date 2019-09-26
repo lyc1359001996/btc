@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
 using System.Text;
+using B2C.DTO;
 using Service.Entitie;
 
 namespace Service.ModelConfig
 {
-    class ShopHistoryConfig : EntityTypeConfiguration<ShopHistoryDTO>
+    class ShopHistoryConfig : EntityTypeConfiguration<ShopHistoryEntity>
     {
         public ShopHistoryConfig()
         {

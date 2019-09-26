@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
 using System.Text;
+using B2C.DTO;
 using Service.Entitie;
 
 namespace Service.ModelConfig
 {
 
-    class NewsConfig : EntityTypeConfiguration<NewsDTO>
+    class NewsConfig : EntityTypeConfiguration<NewDTO>
     {
         public NewsConfig()
         {

@@ -267,7 +267,11 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj": {
+                "projectPath": "D:\\资料\\C#\\B2C\\B2C-点卡销售系统\\DTO\\B2C.DTO.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

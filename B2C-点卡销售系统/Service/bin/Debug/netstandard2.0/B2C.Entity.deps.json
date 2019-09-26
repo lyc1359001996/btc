@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "7a53938183d3d775f29bd2110fd1351fb68b1b49"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "B2C.Entity/1.0.0": {
         "dependencies": {
+          "B2C.DTO": "1.0.0",
           "EntityFramework": "6.2.0",
           "NETStandard.Library": "2.0.3"
         },
@@ -32,6 +33,11 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "B2C.DTO/1.0.0": {
+        "runtime": {
+          "B2C.DTO.dll": {}
         }
       }
     }
@@ -62,6 +68,11 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "B2C.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

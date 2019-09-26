@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "7a53938183d3d775f29bd2110fd1351fb68b1b49"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
@@ -44,6 +44,7 @@
       },
       "B2C.Entity/1.0.0": {
         "dependencies": {
+          "B2C.DTO": "1.0.0",
           "EntityFramework": "6.2.0"
         },
         "runtime": {
